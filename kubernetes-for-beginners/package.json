@@ -1,0 +1,11 @@
+{
+  "name": "kubernetes-for-beginners",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Eamonn Keogh",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
