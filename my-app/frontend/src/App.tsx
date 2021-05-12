@@ -1,21 +1,11 @@
-import { useEffect, useState } from "react";
-import { Table } from "./components/Table"
-import { TableProps } from "./shared/types";
+import { Login } from "./components/Login";
+import { Register } from "./components/Register";
 
-const App: React.FC = () => {
-  const [data, setData] = useState<TableProps>();
-
-  useEffect(() => {
-    setData({
-      data: "Hello"
-    });
-  }, []);
-
+export default function App() {
   return (
     <div>
-      <Table data={data} />
+      <Register />
+      <Login />
     </div>
   );
 }
-
-export default App;
