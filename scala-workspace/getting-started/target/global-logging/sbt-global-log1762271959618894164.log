@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(version, Some(515c4e6b-7f39-4b16-8251-1f9c4afd6b50), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: version[0m
+[0m[[0m[0minfo[0m] [0m[0m0.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
