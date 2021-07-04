@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '@zendeskgarden/css-bedrock';
 import './index.css';
+import '@zendeskgarden/css-bedrock';
 import { App } from './App';
 import { ThemeProvider } from "@zendeskgarden/react-theming";
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';

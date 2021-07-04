@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://my-app/./src/pages/index.tsx"],"names":[],"mappings":"wHAUA,UARc,WACZ,OACE,2BACE","file":"component---src-pages-index-tsx-09cbb649073ba8c39f8d.js","sourcesContent":["import React from \"react\";\n\nconst Index = () => {\n  return (\n    <div>\n      <h1>Homepage</h1>\n    </div>\n  );\n}\n\nexport default Index;\n"],"sourceRoot":""}
