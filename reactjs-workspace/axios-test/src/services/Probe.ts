@@ -4,6 +4,6 @@ export const probe = async (url: string) => {
   try {
     return await axios.head(url);
   } catch (error) {
-    throw error;
+    return error.response;
   }
 }
