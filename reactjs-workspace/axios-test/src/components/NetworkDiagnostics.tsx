@@ -5,12 +5,25 @@ import { probe } from "../services/Probe";
 const endpoints = Environment.data.ENDPOINTS;
 
 export const NetworkDiagnostics: React.FC = () => {
-  // let promises: Promise<Response>[] = [];
+  let promises: Promise<Response>[] = [];
 
-  async function goProbe() {
+  const goProbe = async () => {
     try {
-      const response = await probe(endpoints[0]);
-      console.log("NET:", response);
+      endpoints.map(async endpoint => {
+        const promise = probe(endpoint);
+        console.log(promise);
+        
+      });
+      
+      const results = await Promise.allSettled(promises);
+
+      for (const result of results) {
+        if (result.status !== "fulfilled") {
+          console.log("NET:", result.reason);
+        } else {
+          console.log("NET:", result.value);
+        }
+      }
     } catch (error) {
       console.error(error);
     }

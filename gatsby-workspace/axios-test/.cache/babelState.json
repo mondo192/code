@@ -1,0 +1,172 @@
+{
+  "stages": {
+    "develop": {
+      "plugins": [
+        {
+          "name": "babel-plugin-lodash",
+          "options": {}
+        },
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/gatsby-plugin-image-virtual-872a7f3537/0/cache/gatsby-plugin-image-npm-1.9.0-5c66e5c2c8-f7e669caf0.zip/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
+          "options": {
+            "cacheDir": "/home/eamonn/code/gatsby-workspace/axios-test/.cache/caches/gatsby-plugin-image"
+          }
+        },
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/@babel-plugin-proposal-optional-chaining-virtual-9e2ab13253/0/cache/@babel-plugin-proposal-optional-chaining-npm-7.14.5-0a1af66b08-c5e74f83ed.zip/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/@babel-plugin-proposal-nullish-coalescing-operator-virtual-1d3eddbd3e/0/cache/@babel-plugin-proposal-nullish-coalescing-operator-npm-7.14.5-f47974419f-2f81d7a9ab.zip/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/@babel-plugin-proposal-numeric-separator-virtual-8406547320/0/cache/@babel-plugin-proposal-numeric-separator-npm-7.14.5-5dbb482582-8ff9281e6b.zip/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "options": {}
+        }
+      ],
+      "presets": [
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/@babel-preset-typescript-virtual-f9db4e09df/0/cache/@babel-preset-typescript-npm-7.14.5-85ea1cfc5a-d2fdf3d875.zip/node_modules/@babel/preset-typescript/lib/index.js",
+          "options": {
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
+          }
+        }
+      ],
+      "options": {
+        "cacheDirectory": true,
+        "sourceType": "unambiguous"
+      }
+    },
+    "develop-html": {
+      "plugins": [
+        {
+          "name": "babel-plugin-lodash",
+          "options": {}
+        },
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/gatsby-plugin-image-virtual-872a7f3537/0/cache/gatsby-plugin-image-npm-1.9.0-5c66e5c2c8-f7e669caf0.zip/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
+          "options": {
+            "cacheDir": "/home/eamonn/code/gatsby-workspace/axios-test/.cache/caches/gatsby-plugin-image"
+          }
+        },
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/@babel-plugin-proposal-optional-chaining-virtual-9e2ab13253/0/cache/@babel-plugin-proposal-optional-chaining-npm-7.14.5-0a1af66b08-c5e74f83ed.zip/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/@babel-plugin-proposal-nullish-coalescing-operator-virtual-1d3eddbd3e/0/cache/@babel-plugin-proposal-nullish-coalescing-operator-npm-7.14.5-f47974419f-2f81d7a9ab.zip/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/@babel-plugin-proposal-numeric-separator-virtual-8406547320/0/cache/@babel-plugin-proposal-numeric-separator-npm-7.14.5-5dbb482582-8ff9281e6b.zip/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "options": {}
+        }
+      ],
+      "presets": [
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/@babel-preset-typescript-virtual-f9db4e09df/0/cache/@babel-preset-typescript-npm-7.14.5-85ea1cfc5a-d2fdf3d875.zip/node_modules/@babel/preset-typescript/lib/index.js",
+          "options": {
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
+          }
+        }
+      ],
+      "options": {
+        "cacheDirectory": true,
+        "sourceType": "unambiguous"
+      }
+    },
+    "build-html": {
+      "plugins": [
+        {
+          "name": "babel-plugin-lodash",
+          "options": {}
+        },
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/gatsby-plugin-image-virtual-872a7f3537/0/cache/gatsby-plugin-image-npm-1.9.0-5c66e5c2c8-f7e669caf0.zip/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
+          "options": {
+            "cacheDir": "/home/eamonn/code/gatsby-workspace/axios-test/.cache/caches/gatsby-plugin-image"
+          }
+        },
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/@babel-plugin-proposal-optional-chaining-virtual-9e2ab13253/0/cache/@babel-plugin-proposal-optional-chaining-npm-7.14.5-0a1af66b08-c5e74f83ed.zip/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/@babel-plugin-proposal-nullish-coalescing-operator-virtual-1d3eddbd3e/0/cache/@babel-plugin-proposal-nullish-coalescing-operator-npm-7.14.5-f47974419f-2f81d7a9ab.zip/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/@babel-plugin-proposal-numeric-separator-virtual-8406547320/0/cache/@babel-plugin-proposal-numeric-separator-npm-7.14.5-5dbb482582-8ff9281e6b.zip/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "options": {}
+        }
+      ],
+      "presets": [
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/@babel-preset-typescript-virtual-f9db4e09df/0/cache/@babel-preset-typescript-npm-7.14.5-85ea1cfc5a-d2fdf3d875.zip/node_modules/@babel/preset-typescript/lib/index.js",
+          "options": {
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
+          }
+        }
+      ],
+      "options": {
+        "cacheDirectory": true,
+        "sourceType": "unambiguous"
+      }
+    },
+    "build-javascript": {
+      "plugins": [
+        {
+          "name": "babel-plugin-lodash",
+          "options": {}
+        },
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/gatsby-plugin-image-virtual-872a7f3537/0/cache/gatsby-plugin-image-npm-1.9.0-5c66e5c2c8-f7e669caf0.zip/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
+          "options": {
+            "cacheDir": "/home/eamonn/code/gatsby-workspace/axios-test/.cache/caches/gatsby-plugin-image"
+          }
+        },
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/@babel-plugin-proposal-optional-chaining-virtual-9e2ab13253/0/cache/@babel-plugin-proposal-optional-chaining-npm-7.14.5-0a1af66b08-c5e74f83ed.zip/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/@babel-plugin-proposal-nullish-coalescing-operator-virtual-1d3eddbd3e/0/cache/@babel-plugin-proposal-nullish-coalescing-operator-npm-7.14.5-f47974419f-2f81d7a9ab.zip/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/@babel-plugin-proposal-numeric-separator-virtual-8406547320/0/cache/@babel-plugin-proposal-numeric-separator-npm-7.14.5-5dbb482582-8ff9281e6b.zip/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "options": {}
+        }
+      ],
+      "presets": [
+        {
+          "name": "/home/eamonn/code/gatsby-workspace/axios-test/.yarn/$$virtual/@babel-preset-typescript-virtual-f9db4e09df/0/cache/@babel-preset-typescript-npm-7.14.5-85ea1cfc5a-d2fdf3d875.zip/node_modules/@babel/preset-typescript/lib/index.js",
+          "options": {
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
+          }
+        }
+      ],
+      "options": {
+        "cacheDirectory": true,
+        "sourceType": "unambiguous"
+      }
+    }
+  },
+  "browserslist": [
+    ">0.25%",
+    "not dead"
+  ]
+}
