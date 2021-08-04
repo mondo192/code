@@ -1,0 +1,8 @@
+{
+  "name": "todos",
+  "packageManager": "yarn@3.0.0",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}

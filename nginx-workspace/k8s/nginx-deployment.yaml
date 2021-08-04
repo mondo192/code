@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-deployment
 spec:
+  replicas: 1
   selector:
     matchLabels:
       app: nginx-deployment
@@ -13,10 +14,10 @@ spec:
     spec:
       containers:
       - name: nginx-deployment
-        image: nginx:1.21.1-alpine
+        image: nginx:1.21.1
         resources:
           limits:
             memory: "128Mi"
             cpu: "500m"
         ports:
-        - containerPort: 8080
+        - containerPort: 80
