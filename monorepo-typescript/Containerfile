@@ -1,4 +1,4 @@
-FROM docker.io/library/node:16.10.0-alpine3.14 AS build
+FROM docker.io/library/node:16.10.0-bullseye-slim AS build
 
 WORKDIR /app
 
@@ -10,10 +10,9 @@ RUN yarn set version berry && yarn install
 WORKDIR /app/packages/backend
 RUN yarn build
 
+FROM docker.io/library/node:16.10.0-bullseye-slim
 
-FROM docker.io/library/node:16.10.0-alpine3.14
-
-EXPOSE 8080
+EXPOSE 3000
 
 WORKDIR /app
 
@@ -23,6 +22,8 @@ COPY --from=build /app/packages/backend/dist /app/packages/backend/dist
 
 RUN yarn set version berry && \
     yarn plugin import workspace-tools && \
-    yarn workspaces focus --production
+    yarn workspaces focus --production --all
 
-CMD ["yarn", "backend", "serve"]
+WORKDIR /app/packages/backend
+
+CMD ["node", "dist/server.js"]
